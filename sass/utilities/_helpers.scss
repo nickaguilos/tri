@@ -84,6 +84,25 @@ $darkborder: #666;
 	overflow: hidden;
 }
 
+// HR
+hr {
+	background: $border;
+	clear: both;
+	float: none;
+	width: 100%;
+	height: 1px;
+	margin: 3em 0;
+	border: none;
+
+	&.minimalmargin {
+		margin: 1em 0;
+	}
+
+	&.short {
+		width: 180px;
+	}
+}
+
 
 // Overflow
 .overflowhidden { overflow: hidden; }

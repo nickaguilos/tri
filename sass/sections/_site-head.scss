@@ -1,6 +1,13 @@
 // Site Header Rules
 
 #site-head {
+
+	#masthead {
+		img {
+			max-width: 200px;
+		}
+	}
+
 	// Desktop Rules
 	@media screen and (min-width: $medium) {
 		h1 {

@@ -1,0 +1,15 @@
+// Site Nav Rules
+
+#site-nav {
+	// Desktop Rules
+	@media screen and (min-width: $medium) {
+		a {
+			font-size: 18px;
+			color: $text-color;
+			&:active, &.active {
+				color: $brand-color;
+				border-bottom: 2px solid $brand-color;
+			}
+		}
+	}
+}

@@ -1,0 +1,19 @@
+/*
+
+	Main SCSS file for TRI
+	Started: July 12, 2017
+
+*/
+
+// Call Utilities
+@import 'utilities/defaults';
+@import 'utilities/grid';
+@import 'utilities/helpers';
+@import 'utilities/typography';
+
+// Sections
+@import 'sections/site-head';
+@import 'sections/site-nav';
+
+// Pages
+@import 'pages/home';

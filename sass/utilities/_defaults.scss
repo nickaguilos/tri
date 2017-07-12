@@ -1,0 +1,26 @@
+/*
+
+	Defaults
+
+*/
+
+// Variables
+$brand-color: #a4243f;
+$text-color : #333;
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: -apple-system, BlinkMacSystemFont, 'San Francisco', 'Helvetica Neue', 'Helvetica', 'Roboto', sans-serif;
+	color: $text-color;
+}
+
+a {
+	color: $brand-color;
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}

@@ -1,0 +1,10 @@
+// Site Header Rules
+
+#site-head {
+	// Desktop Rules
+	@media screen and (min-width: $medium) {
+		h1 {
+			font-size: 20px;
+		}
+	}
+}

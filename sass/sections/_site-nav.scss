@@ -6,11 +6,6 @@
 		a {
 			font-size: 18px;
 			color: $text-color;
-
-			&:active, &:hover, &.active {
-				color: $brand-color;
-				border-bottom: 2px solid $brand-color;
-			}
 		}
 	}
 }

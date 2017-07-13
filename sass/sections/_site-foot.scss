@@ -1,0 +1,10 @@
+// Site Footer
+
+#site-foot {
+	// Desktop
+	@media screen and (min-width: $large) {
+		.brand {
+			width: 150px;
+		}
+	}
+}

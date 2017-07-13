@@ -17,9 +17,14 @@ body {
 }
 
 a {
-	color: $brand-color;
+	color: $text-color;
 	text-decoration: none;
 	transition: all 0.5s;
+
+	&:active, &:hover, &.active {
+		color: $brand-color;
+		border-bottom: 1px solid $brand-color;
+	}
 }
 
 img {

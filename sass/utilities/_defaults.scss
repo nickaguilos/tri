@@ -30,3 +30,12 @@ a {
 img {
 	max-width: 100%;
 }
+
+// Classes
+.full-width-image {
+	height: 400px;
+	width: 100%;
+	background-size: cover;
+	background-repeat: none;
+	background-color: #333;
+}

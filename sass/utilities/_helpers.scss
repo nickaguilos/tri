@@ -11,28 +11,28 @@ $darkborder: #666;
 
 // Borders
 .borderleft {
-	border-left: 1px solid $border;
+	border-left: 1px solid #4296d7;
 	&.dark {
 		border-color: $darkborder;
 	}
 }
 
 .borderright {
-	border-right: 1px solid $border;
+	border-right: 1px solid #4296d7;
 	&.dark {
 		border-color: $darkborder;
 	}
 }
 
 .bordertop {
-	border-top: 1px solid $border;
+	border-top: 1px solid #4296d7;
 	&.dark {
 		border-color: $darkborder;
 	}
 }
 
 .borderbottom {
-	border-bottom: 1px solid $border;
+	border-bottom: 1px solid #4296d7;
 	&.dark {
 		border-color: $darkborder;
 	}
@@ -86,7 +86,7 @@ $darkborder: #666;
 
 // HR
 hr {
-	background: $border;
+	background: #4296d7;
 	clear: both;
 	float: none;
 	width: 100%;

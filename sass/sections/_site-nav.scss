@@ -7,5 +7,29 @@
 			font-size: 18px;
 			color: $text-color;
 		}
+
+		.dropdown-attachment {
+			position: relative;
+			float: left;
+
+			&:hover {
+				> div {
+					display: block;
+				}
+			}
+		}
+
+		.dropdown-attachment > div {
+			display: none;
+			background-color: #fff;
+			position: absolute;
+			width: 400px;
+			border: 1px solid #eee;
+
+			a {
+				font-size: 14px;
+				display: inline-block;
+			}
+		}
 	}
 }

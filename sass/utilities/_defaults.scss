@@ -19,7 +19,7 @@ body {
 a {
 	color: $text-color;
 	text-decoration: none;
-	transition: all 0.5s;
+	// transition: all 0.5s;
 
 	&:active, &:hover, &.active {
 		color: $brand-color;

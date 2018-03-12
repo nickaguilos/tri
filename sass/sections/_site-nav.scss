@@ -1,35 +1,60 @@
 // Site Nav Rules
 
 #site-nav {
+	.dropdown-attachment {
+		position: relative;
+		float: left;
+
+		&:hover {
+			> div {
+				display: block;
+			}
+		}
+		white-space: normal;
+	}
+
+	.dropdown-attachment > div {
+		display: none;
+		background-color: #fff;
+		position: absolute;
+		width: 400px;
+		border: 1px solid #eee;
+
+		a {
+			font-size: 14px;
+			display: inline-block;
+		}
+	}
+
 	// Desktop Rules
 	@media screen and (min-width: $medium) {
 		a {
 			font-size: 18px;
 			color: $text-color;
 		}
+	}
 
-		.dropdown-attachment {
-			position: relative;
-			float: left;
+	@media screen and (max-width: $medium - 1) {
+		.container {
+			padding: 0 !important;
+			overflow-x: scroll;
+			white-space: nowrap;
 
-			&:hover {
-				> div {
-					display: block;
-				}
+			&:before {
+				content: "";
+				display: block;
+				height: 0;
+				overflow: hidden;
 			}
 		}
 
-		.dropdown-attachment > div {
-			display: none;
-			background-color: #fff;
-			position: absolute;
-			width: 400px;
-			border: 1px solid #eee;
-
-			a {
-				font-size: 14px;
-				display: inline-block;
-			}
+		.dropdown-attachment div {
+			display: none !important;
 		}
+
+		#sheet-trigger {
+			padding-bottom: 30px;
+		}
+		
 	}
 }

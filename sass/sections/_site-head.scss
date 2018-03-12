@@ -15,3 +15,42 @@
 		}
 	}
 }
+
+
+#bottom-sheet {
+	display: none;
+
+	> div {
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+	}
+
+	.close {
+		font-size: 25px;
+		position: absolute;
+		top: -10px;
+		right: 20px;
+	}
+
+	.overlay {
+		background: #fff;
+		opacity: 0.98;
+		height: 100%;
+		width: 100%;
+	}
+
+	.content {
+		background: #fff;
+		border-top: 1px solid #eee;
+		a {
+			display: block;
+		}
+
+		div {
+			padding: 30px;
+			position: relative;
+		}
+	}
+}
